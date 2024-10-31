@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body{
+    background-image: url(src/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+       
+}
+.containerG{
+    
+    background-color: rgba(0, 0.2, 0, 0.6);
+    background-position-x: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    padding: 50px;
+    border-radius: 16px;
+    min-width: 500px;
+    
+
+}
+.Logo{
+    width: 200PX;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(54, 250, 0);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+.container2{
+    height: 30px; 
+    margin-top: 4px;
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    background-color: rgb(54, 250, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+    
+}
+.container3{
+    margin-top: 16px;
+}
+
+
+.button-wrapper {
+    display: inline-block;
+    gap: 8px; 
+}
+
+
+button{
+    padding: 3px;
+    font-size: 15px;
+   
+}
+h3,p{
+    font-size: medium;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+
+.barraYellow {
+    width: 40%;  
+    height: 20px;
+    background-color:orange; 
+    border-radius: 5px;
+}
+.barraGreen {
+    width: 70%;  
+    height: 20px; 
+    background-color:rgb(40, 180, 40); 
+    border-radius: 5px;
+}
+.barraRed {
+    width: 25%;
+    height: 20px;
+    background-color: red; 
+    border-radius: 5px;
+}
